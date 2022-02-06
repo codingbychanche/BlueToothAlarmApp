@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BluetoothAlarmApp</string>
+
+    <!-- Main Activity -->
+    <string name="description"> This app listens to the selected BT- devices input stream. If
+                                data is received an alarm is invoked by opening a new activity.
+                                This will work as long as the app is not destroyed.
+                                When the device is in pause mode, the alarm activity will
+                                turn the screen on (wake the device up).</string>
+
+    <string name="cancel_conn">Close connection</string>
+
+    <!-- Alarm fragment -->
+    <string name="alarm_fragment_text"> ALARM!</string>
+    <string name="alarm_fragment_ok_button_text"> ALARM!</string>
+
+
+</resources>
