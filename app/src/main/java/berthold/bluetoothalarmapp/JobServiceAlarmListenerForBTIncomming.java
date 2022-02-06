@@ -99,8 +99,10 @@ public class JobServiceAlarmListenerForBTIncomming extends androidx.core.app.Job
             }
 
             // Just a little bit in order to evaluate correctly if there was an alarm or not..
+            // The time span given in ms specifies the time which has to be elapsed before
+            // a new alarm can be triggered....
             try {
-                Thread.sleep(500);
+                Thread.sleep(1000);
             } catch (InterruptedException e) {
             }
         }
